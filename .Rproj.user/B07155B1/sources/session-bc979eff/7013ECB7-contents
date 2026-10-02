@@ -1,0 +1,16 @@
+---
+title: "Robbie Norman"
+image: headshot.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Robbie-Norman
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/robert-norman-80b0a82a1
+    - icon: inboxes
+      text: Contact
+      href: mailto:YOUR_EMAIL@uark.edu
+---
