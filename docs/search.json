@@ -7,11 +7,53 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Robbie Norman",
+    "objectID": "posts/Data Visualization/index.html",
+    "href": "posts/Data Visualization/index.html",
+    "title": "Natural Gas Storage Across the United States",
     "section": "",
-    "text": "I am an Industrial Engineering student at the University of Arkansas with experience in facility design, ammonia refrigeration, and wastewater treatment. Through internships with Jurni Design Team and Simmons Prepared Foods, I have used Autodesk software to model processing facilities and analyzed refrigeration operations to identify an estimated $20,000 in annual energy savings. I enjoy applying engineering and data analysis to improve industrial processes."
+    "text": "Brian Ostrosky\nDaniel Cobian\nEvan Jackson\nJoshua Araujo\nRobbie Norman"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#team-members",
+    "href": "posts/Data Visualization/index.html#team-members",
+    "title": "Natural Gas Storage Across the United States",
+    "section": "",
+    "text": "Brian Ostrosky\nDaniel Cobian\nEvan Jackson\nJoshua Araujo\nRobbie Norman"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#about-the-data",
+    "href": "posts/Data Visualization/index.html#about-the-data",
+    "title": "Natural Gas Storage Across the United States",
+    "section": "About the Data",
+    "text": "About the Data\nWe used U.S. Energy Information Administration data containing 878 weekly natural gas storage observations from January 2010 through October 2026. The data cover the Lower 48 states and individual regions. Storage is measured in billion cubic feet (Bcf)."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#how-are-weekly-u.s.-natural-gas-storage-levels-distributed-from-20102026",
+    "href": "posts/Data Visualization/index.html#how-are-weekly-u.s.-natural-gas-storage-levels-distributed-from-20102026",
+    "title": "Natural Gas Storage Across the United States",
+    "section": "1. How are weekly U.S. natural gas storage levels distributed from 2010–2026?",
+    "text": "1. How are weekly U.S. natural gas storage levels distributed from 2010–2026?\nLead: Evan Jackson Visual: Histogram\nWe were interested in which storage levels occurred most often. We grouped the Lower 48 storage values into 500-Bcf intervals in Excel and counted the weeks in each interval. The most common interval was 3,000–3,499 Bcf, with 209 weeks.\nWe used storage intervals on the horizontal axis and the number of weeks on the vertical axis. Equal-width bars make the frequencies easy to compare.\nAssertion: Weekly U.S. natural gas storage most frequently fell between 3,000 and 3,499 Bcf.\n[I WILL ADD THIS IMAGE WHEN MY TEAMATE FINISHES THEIR PLOT]"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#how-does-average-natural-gas-storage-compare-between-the-east-and-midwest-regions",
+    "href": "posts/Data Visualization/index.html#how-does-average-natural-gas-storage-compare-between-the-east-and-midwest-regions",
+    "title": "Natural Gas Storage Across the United States",
+    "section": "2. How does average natural gas storage compare between the East and Midwest regions?",
+    "text": "2. How does average natural gas storage compare between the East and Midwest regions?\nLead: Joshua Araujo\nVisual: Bar chart\nWe wanted to see which region typically stored more natural gas. In Excel, the averages can be calculated using =AVERAGE(C4:C881) for the East and =AVERAGE(D4:D881) for the Midwest. Average storage was 620.32 Bcf in the East and 722.32 Bcf in the Midwest.\nWe compared these averages using two bars and a storage axis beginning at zero so the difference is shown proportionally.\nAssertion: Average weekly natural gas storage was about 16% higher in the Midwest than in the East.\n[I WILL ADD THIS IMAGE WHEN MY TEAMATE FINISHES THEIR PLOT]"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#how-have-natural-gas-storage-levels-in-the-pacific-region-changed-from-20102026",
+    "href": "posts/Data Visualization/index.html#how-have-natural-gas-storage-levels-in-the-pacific-region-changed-from-20102026",
+    "title": "Natural Gas Storage Across the United States",
+    "section": "3. How have natural gas storage levels in the Pacific region changed from 2010–2026?",
+    "text": "3. How have natural gas storage levels in the Pacific region changed from 2010–2026?\nLead: Robbie Norman\nVisual: Time-series plot\nWe wanted to examine changes over time and identify unusually high or low storage levels. In Excel, we selected the dates in column A and Pacific storage values in column F to create a line chart.\nStorage ranged from 386 Bcf in November 2013 to 72 Bcf in March 2023, before recovering to 297 Bcf in October 2026.\nWe placed dates on the horizontal axis and storage on the vertical axis. A scale from 0 to 400 Bcf includes the full range, and keeping the weekly observations shows the fluctuations.\nAssertion: Pacific natural gas storage fluctuated widely from 2010–2026 and recovered after reaching its lowest level in 2023.\n\n\n\nPacific natural gas storage slide"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#is-there-a-relationship-between-natural-gas-storage-levels-in-the-mountain-and-south-central-regions",
+    "href": "posts/Data Visualization/index.html#is-there-a-relationship-between-natural-gas-storage-levels-in-the-mountain-and-south-central-regions",
+    "title": "Natural Gas Storage Across the United States",
+    "section": "4. Is there a relationship between natural gas storage levels in the Mountain and South Central regions?",
+    "text": "4. Is there a relationship between natural gas storage levels in the Mountain and South Central regions?\nLead: Brian Ostrosky Visual: Scatter plot\nWe wanted to see whether storage levels in these regions tended to rise and fall together. We paired the Mountain values in column E with the South Central values in column G for the same weeks. Excel’s =CORREL(E4:E881,G4:G881) gives a correlation of approximately 0.80, indicating a strong positive relationship.\nThe scatter plot shows one point for each week, with the regions on separate axes measured in Bcf. The upward pattern supports our assertion, although it does not establish causation.\nAssertion: Mountain and South Central natural gas storage levels show a strong positive relationship.\n\n\n\nMountain and South Central natural gas storage slide"
   },
   {
     "objectID": "about.html",
@@ -19,6 +61,13 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Robbie Norman",
+    "section": "",
+    "text": "I am an Industrial Engineering student at the University of Arkansas with experience in facility design, ammonia refrigeration, and wastewater treatment. Through internships with Jurni Design Team and Simmons Prepared Foods, I have used Autodesk software to model processing facilities and analyzed refrigeration operations to identify an estimated $20,000 in annual energy savings. I enjoy applying engineering and data analysis to improve industrial processes."
   },
   {
     "objectID": "posts/post-with-code/index.html",
